@@ -888,6 +888,12 @@ jobs:
                   echo 'export INSTANCE_ROLE="Demisto 6.0"' >> $BASH_ENV
                   source $BASH_ENV
             - run:
+                name: Collect Instance Role
+                when: always
+                command: |
+                  echo 'export INSTANCE_ROLE="Demisto 6.0"' >> $BASH_ENV
+                  source $BASH_ENV
+            - run:
                 name: Wait until server ready
                 shell: /bin/bash
                 when: always

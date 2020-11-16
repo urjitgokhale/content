@@ -1,4 +1,5 @@
 id: servicenow_test_v2
+
 version: -1
 name: ServiceNow Test V2
 description: This playbook tests the ServiceNow integration commands.

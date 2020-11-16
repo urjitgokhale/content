@@ -14,6 +14,7 @@ from datetime import datetime, timedelta
 requests.packages.urllib3.disable_warnings()
 
 
+
 ''' GLOBALS/PARAMS '''
 
 TOKEN = demisto.params().get('token', '')
